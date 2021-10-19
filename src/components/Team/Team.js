@@ -11,7 +11,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="container mx-auto p-4">
-                <div className="grid grid-cols-3 my-10 gap-20">
+                <div className="grid grid-cols-1 lg:grid-cols-3 my-10 gap-20">
                     <div className="bg-gray-100 p-8">
                         <img className="rounded-full mx-auto " width="100px" src="/images/doc-1.jpg" alt="" />
                         <h3 className="text-2xl text-center py-4">Andrea Hayes</h3>

@@ -11,8 +11,8 @@ const Contact = () => {
                 </div>
             </div>
             <div className="container mx-auto p-4">
-                <div className="flex my-10">
-                    <div className="w-3/5">
+                <div className="lg:flex my-10">
+                    <div className="lg:w-3/5">
                         <h2 className="text-3xl font-bold ">Have Queries Before <br /> The <span className="text-primary">Appointment?</span></h2>
                         <hr className="border-2 border-primary w-20 my-3" />
 

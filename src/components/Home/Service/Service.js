@@ -6,7 +6,7 @@ const Service = ({service}) => {
     const {id, name, description, imageURL} = service
     return (
         <div className="service">
-            <img src={imageURL} className="rounded" alt="" />
+            <img src={imageURL} className="rounded w-full" alt="" />
             <div className="bg-primary text-white w-11/12 mx-auto relative bottom-20 p-5">
                 <h1 className="text-xl font-bold mb-2">{name}</h1>
                 <p className="description">{description.slice(0, 180)}...</p>

@@ -11,12 +11,12 @@ const Home = () => {
     return (
         <div>
             <div className="showcase relative" >
-                <img id="banner" width="100%" src="./images/banner.jpg" alt="" />
+                <img id="banner" width="100%" className="h-80" src="./images/banner.jpg" alt="" />
                 <div className="container">
                     <div id="search" className="">
-                        <h1 className="text-5xl mb-8 text-center font-bold text-white">Your <span className="text-primary">Vision</span> Is Our Mission.</h1>
+                        <h1 className=" text-xl lg:text-5xl mb-8 text-center font-bold text-white">Your <span className="text-primary">Vision</span> Is Our Mission.</h1>
                         <div className="flex justify-center">
-                            <input type="search" className="px-6 py-1 h-12 w-96 text-gray-900 rounded-full focus:outline-none"
+                            <input type="search" className="px-6 py-1 h-12 w-50 lg:w-96 text-gray-900 rounded-full focus:outline-none"
                                 placeholder="search" x-model="search" />
                             <button type="submit" className="flex items-center text-white px-6 py-1 bg-primary h-12 rounded-full relative right-10">
                                 Search on site
@@ -29,8 +29,8 @@ const Home = () => {
             <div id="services">
                 <div className="container mx-auto px-4 my-10 ">
                     <h2 className="text-3xl font-bold text-center mb-2">Our <span className="text-primary">Services</span></h2>
-                    <p className="text-center w-3/4 mx-auto">Primary eye care services include: Educating patients about maintaining and promoting healthy vision. Performing a comprehensive examination of the visual system. Screening for eye diseases and conditions affecting vision that may be asymptomatic.</p>
-                    <div className="grid grid-cols-3 gap-5 mt-10">
+                    <p className="text-center w-full lg:w-3/4 mx-auto">Primary eye care services include: Educating patients about maintaining and promoting healthy vision.</p>
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
                         {
                             services.services && services.services.map(service => <Service
                                 key={service.id}
@@ -43,15 +43,15 @@ const Home = () => {
 
             <div id="goal" className="py-14 block bg-gray-100">
                 <div className="container mx-auto px-4">
-                    <div className="flex items-center">
-                        <div >
-                            <img width="100%" src="/images/blog-01.jpg" alt="" />
+                    <div className="lg:flex items-center">
+                        <div className="mb-5 lg:mb-0">
+                            <img width="100%"  src="/images/blog-01.jpg" alt="" />
                         </div>
                         <div className="ml-8">
                             <h2 className="text-3xl font-medium ">We Care For Your <span className="text-primary">Vision.</span></h2>
                             <hr className="border-2 border-primary w-20 my-3" />
                             <p>We believe that everyone deserves to see the world clearly. That’s why we’ve made it our mission to provide patients with the best eye doctors, the most thorough an eye’s health exams, and a wide selection of eyewear delivered with the personal attention you deserve.</p>
-                            <div className="grid grid-cols-2 gap-8 mt-5">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-5">
                                 <div>
                                     <h5 className="text-2xl font-medium mb-2"><i className="far fa-check-square text-primary"></i> We’re Certified</h5>
                                     <p>Certified by Government for excellence in Ophthalmic Technology</p>
@@ -75,10 +75,10 @@ const Home = () => {
             </div>
 
             <div className="testimonials">
-                <div className="container mx-auto py-14">
+                <div className="container mx-auto py-14 px-4">
                     <div>
-                    <h2 className="text-3xl font-bold mb-2 ">Hear From Our  <span className="text-primary">Customers.</span></h2>
-                        <p className=" xl:w-3/4 w-11/12 mx-auto xl:mx-0 text-center sm:text-left">I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage.</p>
+                    <h2 className="text-3xl font-bold mb-2 text-center">Hear From Our  <span className="text-primary">Customers.</span></h2>
+                        <p className=" xl:w-3/4 w-11/12 mx-auto xl:mx-0 text-center sm:text-left">Check what our customer say about us after receiving services from us.</p>
                     </div>
                     <section className="mt-6">
                         <figure className="visible">
