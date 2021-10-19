@@ -1,0 +1,41 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name":"Retina Reapair",
+            "description":"One method of retinal detachment repair is pneumatic retinopexy. In this procedure, a gas bubble is injected into the eye. The bubble presses against the detached retina and pushes it back into place. A laser or cryotherapy is then used to reattach the retina firmly into place.",
+            "imageURL":"/images/main1.jpg"
+        },
+        {
+            "id": 2,
+            "name":"Glaucoma & Cornea",
+            "description":"Glaucoma is an eye disease that is often associated with elevated intraocular pressure, in which damage to the eye (optic) nerve can lead to loss of vision and even blindness. Glaucoma is the leading cause of irreversible blindness in the world.",
+            "imageURL":"/images/main2.jpg"
+        },
+        {
+            "id": 3,
+            "name":"Dry Eye Surgery",
+            "description":"A procedure called punctal occlusion can be used to permanently or temporarily close off your tear drainage channels, allowing you to retain your own natural tears, without the need for eye drops.",
+            "imageURL":"/images/main3.jpg"
+        },
+        {
+            "id": 4,
+            "name":"Cornea Transplant",
+            "description":"A cornea transplant is an operation to remove all or part of a damaged cornea and replace it with healthy donor tissue. A cornea transplant is often referred to as keratoplasty or a corneal graft. It can be used to improve sight, relieve pain and treat severe infection or damage.",
+            "imageURL":"/images/main4.jpg"
+        },
+        {
+            "id": 5,
+            "name":"Surgical Procesure",
+            "description":"A biopsy is a diagnostic test involving the removal of tissue or cells for examination under a microscope. This procedure is also used to remove abnormal breast tissue. A biopsy may be done using a hollow needle to extract tissue (needle biopsy), or a lump may be partially or completely removed (lumpectomy) for examination and/or treatment.",
+            "imageURL":"/images/main5.jpg"
+        },
+        {
+            "id": 6,
+            "name":"Laser Surgery",
+            "description":"All surgeries carry some risk of complications and side effects, but LASIK is generally considered a safe procedure with a low complication rate. In fact, LASIK is one of the safest elective surgical procedures available today, with a complication rate estimated to be less than 1%.",
+            "imageURL":"/images/main6.jpg"
+        }
+    ]
+    
+  }
