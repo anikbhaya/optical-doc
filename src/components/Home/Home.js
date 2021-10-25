@@ -16,12 +16,13 @@ const Home = () => {
                     <div id="search" className="">
                         <h1 className=" text-xl lg:text-5xl mb-8 text-center font-bold text-white">Your <span className="text-primary">Vision</span> Is Our Mission.</h1>
                         <div className="flex justify-center">
-                            <input type="search" className="px-6 py-1 h-12 w-50 lg:w-96 text-gray-900 rounded-full focus:outline-none"
+                            <input type="search" className="px-6 py-1 h-12 w-44 lg:w-96 text-gray-900 rounded-full focus:outline-none"
                                 placeholder="search" x-model="search" />
                             <button type="submit" className="flex items-center text-white px-6 py-1 bg-primary h-12 rounded-full relative right-10">
                                 Search on site
                             </button>
                         </div>
+                        
                     </div>
                 </div>
             </div>
